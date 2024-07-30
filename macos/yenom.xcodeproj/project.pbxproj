@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB1C5D82C58649E00195FF3 /* yenomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5D72C58649E00195FF3 /* yenomApp.swift */; };
+		6EB1C5DA2C58649E00195FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5D92C58649E00195FF3 /* ContentView.swift */; };
+		6EB1C5EA2C5864A000195FF3 /* yenomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5E92C5864A000195FF3 /* yenomTests.swift */; };
+		6EB1C5F42C5864A000195FF3 /* yenomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5F32C5864A000195FF3 /* yenomUITests.swift */; };
+		6EB1C5F62C5864A000195FF3 /* yenomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5F52C5864A000195FF3 /* yenomUITestsLaunchTests.swift */; };
+		6EB1C6032C5865EE00195FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB1C5DB2C5864A000195FF3 /* Assets.xcassets */; };
+		6EB1C6042C5865EE00195FF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB1C5DE2C5864A000195FF3 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB1C5E62C5864A000195FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB1C5CC2C58649E00195FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB1C5D32C58649E00195FF3;
+			remoteInfo = yenom;
+		};
+		6EB1C5F02C5864A000195FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB1C5CC2C58649E00195FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB1C5D32C58649E00195FF3;
+			remoteInfo = yenom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EB1C5D42C58649E00195FF3 /* yenom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yenom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB1C5D72C58649E00195FF3 /* yenomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yenomApp.swift; sourceTree = "<group>"; };
+		6EB1C5D92C58649E00195FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EB1C5DB2C5864A000195FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB1C5DE2C5864A000195FF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EB1C5E02C5864A000195FF3 /* yenom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yenom.entitlements; sourceTree = "<group>"; };
+		6EB1C5E52C5864A000195FF3 /* yenomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yenomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB1C5E92C5864A000195FF3 /* yenomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yenomTests.swift; sourceTree = "<group>"; };
+		6EB1C5EF2C5864A000195FF3 /* yenomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yenomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB1C5F32C5864A000195FF3 /* yenomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yenomUITests.swift; sourceTree = "<group>"; };
+		6EB1C5F52C5864A000195FF3 /* yenomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yenomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB1C5D12C58649E00195FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB1C5E22C5864A000195FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB1C5EC2C5864A000195FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB1C5CB2C58649E00195FF3 = {
+			isa = PBXGroup;
+			children = (
+				6EB1C5D62C58649E00195FF3 /* yenom */,
+				6EB1C5E82C5864A000195FF3 /* yenomTests */,
+				6EB1C5F22C5864A000195FF3 /* yenomUITests */,
+				6EB1C5D52C58649E00195FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB1C5D52C58649E00195FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1C5D42C58649E00195FF3 /* yenom.app */,
+				6EB1C5E52C5864A000195FF3 /* yenomTests.xctest */,
+				6EB1C5EF2C5864A000195FF3 /* yenomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB1C5D62C58649E00195FF3 /* yenom */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1C6022C58658600195FF3 /* Resources */,
+				6EB1C5D72C58649E00195FF3 /* yenomApp.swift */,
+				6EB1C5D92C58649E00195FF3 /* ContentView.swift */,
+			);
+			path = yenom;
+			sourceTree = "<group>";
+		};
+		6EB1C5E82C5864A000195FF3 /* yenomTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1C5E92C5864A000195FF3 /* yenomTests.swift */,
+			);
+			path = yenomTests;
+			sourceTree = "<group>";
+		};
+		6EB1C5F22C5864A000195FF3 /* yenomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1C5F32C5864A000195FF3 /* yenomUITests.swift */,
+				6EB1C5F52C5864A000195FF3 /* yenomUITestsLaunchTests.swift */,
+			);
+			path = yenomUITests;
+			sourceTree = "<group>";
+		};
+		6EB1C6022C58658600195FF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1C5DB2C5864A000195FF3 /* Assets.xcassets */,
+				6EB1C5DE2C5864A000195FF3 /* Preview Assets.xcassets */,
+				6EB1C5E02C5864A000195FF3 /* yenom.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB1C5D32C58649E00195FF3 /* yenom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB1C5F92C5864A000195FF3 /* Build configuration list for PBXNativeTarget "yenom" */;
+			buildPhases = (
+				6EB1C5D02C58649E00195FF3 /* Sources */,
+				6EB1C5D12C58649E00195FF3 /* Frameworks */,
+				6EB1C5D22C58649E00195FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yenom;
+			productName = yenom;
+			productReference = 6EB1C5D42C58649E00195FF3 /* yenom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB1C5E42C5864A000195FF3 /* yenomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB1C5FC2C5864A000195FF3 /* Build configuration list for PBXNativeTarget "yenomTests" */;
+			buildPhases = (
+				6EB1C5E12C5864A000195FF3 /* Sources */,
+				6EB1C5E22C5864A000195FF3 /* Frameworks */,
+				6EB1C5E32C5864A000195FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB1C5E72C5864A000195FF3 /* PBXTargetDependency */,
+			);
+			name = yenomTests;
+			productName = yenomTests;
+			productReference = 6EB1C5E52C5864A000195FF3 /* yenomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB1C5EE2C5864A000195FF3 /* yenomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB1C5FF2C5864A000195FF3 /* Build configuration list for PBXNativeTarget "yenomUITests" */;
+			buildPhases = (
+				6EB1C5EB2C5864A000195FF3 /* Sources */,
+				6EB1C5EC2C5864A000195FF3 /* Frameworks */,
+				6EB1C5ED2C5864A000195FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB1C5F12C5864A000195FF3 /* PBXTargetDependency */,
+			);
+			name = yenomUITests;
+			productName = yenomUITests;
+			productReference = 6EB1C5EF2C5864A000195FF3 /* yenomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB1C5CC2C58649E00195FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6EB1C5D32C58649E00195FF3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6EB1C5E42C5864A000195FF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6EB1C5D32C58649E00195FF3;
+					};
+					6EB1C5EE2C5864A000195FF3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6EB1C5D32C58649E00195FF3;
+					};
+				};
+			};
+			buildConfigurationList = 6EB1C5CF2C58649E00195FF3 /* Build configuration list for PBXProject "yenom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB1C5CB2C58649E00195FF3;
+			productRefGroup = 6EB1C5D52C58649E00195FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB1C5D32C58649E00195FF3 /* yenom */,
+				6EB1C5E42C5864A000195FF3 /* yenomTests */,
+				6EB1C5EE2C5864A000195FF3 /* yenomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB1C5D22C58649E00195FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB1C6032C5865EE00195FF3 /* Assets.xcassets in Resources */,
+				6EB1C6042C5865EE00195FF3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB1C5E32C5864A000195FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB1C5ED2C5864A000195FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB1C5D02C58649E00195FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB1C5DA2C58649E00195FF3 /* ContentView.swift in Sources */,
+				6EB1C5D82C58649E00195FF3 /* yenomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB1C5E12C5864A000195FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB1C5EA2C5864A000195FF3 /* yenomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB1C5EB2C5864A000195FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB1C5F42C5864A000195FF3 /* yenomUITests.swift in Sources */,
+				6EB1C5F62C5864A000195FF3 /* yenomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB1C5E72C5864A000195FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB1C5D32C58649E00195FF3 /* yenom */;
+			targetProxy = 6EB1C5E62C5864A000195FF3 /* PBXContainerItemProxy */;
+		};
+		6EB1C5F12C5864A000195FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB1C5D32C58649E00195FF3 /* yenom */;
+			targetProxy = 6EB1C5F02C5864A000195FF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EB1C5F72C5864A000195FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EB1C5F82C5864A000195FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6EB1C5FA2C5864A000195FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = yenom/Resources/yenom.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "yenom/Resources/Preview\\ Assets.xcassets";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yenom Portfolio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.weslley-campos.yenom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EB1C5FB2C5864A000195FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = yenom/Resources/yenom.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "yenom/Resources/Preview\\ Assets.xcassets";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yenom Portfolio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.weslley-campos.yenom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6EB1C5FD2C5864A000195FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.weslley-campos.yenomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yenom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yenom";
+			};
+			name = Debug;
+		};
+		6EB1C5FE2C5864A000195FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.weslley-campos.yenomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yenom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yenom";
+			};
+			name = Release;
+		};
+		6EB1C6002C5864A000195FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.weslley-campos.yenomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = yenom;
+			};
+			name = Debug;
+		};
+		6EB1C6012C5864A000195FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.weslley-campos.yenomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = yenom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB1C5CF2C58649E00195FF3 /* Build configuration list for PBXProject "yenom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB1C5F72C5864A000195FF3 /* Debug */,
+				6EB1C5F82C5864A000195FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB1C5F92C5864A000195FF3 /* Build configuration list for PBXNativeTarget "yenom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB1C5FA2C5864A000195FF3 /* Debug */,
+				6EB1C5FB2C5864A000195FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB1C5FC2C5864A000195FF3 /* Build configuration list for PBXNativeTarget "yenomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB1C5FD2C5864A000195FF3 /* Debug */,
+				6EB1C5FE2C5864A000195FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB1C5FF2C5864A000195FF3 /* Build configuration list for PBXNativeTarget "yenomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB1C6002C5864A000195FF3 /* Debug */,
+				6EB1C6012C5864A000195FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB1C5CC2C58649E00195FF3 /* Project object */;
+}
