@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E5C77C12C5D927000912455 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C77C02C5D927000912455 /* Theme.swift */; };
+		6E5C77C22C5D927000912455 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C77C02C5D927000912455 /* Theme.swift */; };
+		6E5C77C32C5D927000912455 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C77C02C5D927000912455 /* Theme.swift */; };
 		6EB1C5D82C58649E00195FF3 /* yenomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5D72C58649E00195FF3 /* yenomApp.swift */; };
 		6EB1C5DA2C58649E00195FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5D92C58649E00195FF3 /* ContentView.swift */; };
 		6EB1C5EA2C5864A000195FF3 /* yenomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1C5E92C5864A000195FF3 /* yenomTests.swift */; };
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E5C77C02C5D927000912455 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		6EB1C5D42C58649E00195FF3 /* yenom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yenom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB1C5D72C58649E00195FF3 /* yenomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yenomApp.swift; sourceTree = "<group>"; };
 		6EB1C5D92C58649E00195FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E5C77BF2C5D8C9200912455 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C77C02C5D927000912455 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		6EB1C5CB2C58649E00195FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 		6EB1C5D62C58649E00195FF3 /* yenom */ = {
 			isa = PBXGroup;
 			children = (
+				6E5C77BF2C5D8C9200912455 /* Theme */,
 				6EB1C6022C58658600195FF3 /* Resources */,
 				6EB1C5D72C58649E00195FF3 /* yenomApp.swift */,
 				6EB1C5D92C58649E00195FF3 /* ContentView.swift */,
@@ -260,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB1C5DA2C58649E00195FF3 /* ContentView.swift in Sources */,
+				6E5C77C12C5D927000912455 /* Theme.swift in Sources */,
 				6EB1C5D82C58649E00195FF3 /* yenomApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB1C5EA2C5864A000195FF3 /* yenomTests.swift in Sources */,
+				6E5C77C22C5D927000912455 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB1C5F42C5864A000195FF3 /* yenomUITests.swift in Sources */,
+				6E5C77C32C5D927000912455 /* Theme.swift in Sources */,
 				6EB1C5F62C5864A000195FF3 /* yenomUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -364,7 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
