@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct Theme {
+struct Colors {
     // MARK: Colors
     static let primary = Color("Primary")
     static let primaryDarker = Color("PrimaryDarker")
